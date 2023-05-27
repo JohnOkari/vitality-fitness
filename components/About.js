@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/legacy/image";
-// import aboutimage from "../public/about.jpg";
+import aboutimage from "../public/about.jpg";
 import { CgGym } from "react-icons/cg";
 import { motion } from "framer-motion";
 const About = () => {
