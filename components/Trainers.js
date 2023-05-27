@@ -1,6 +1,6 @@
 import React from "react";
 import { CgGym } from "react-icons/cg";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import selfie1 from "../public/selfie1.png";
 import selfie3 from "../public/selfie3.png";
 import selfie4 from "../public/selfie4.png";
@@ -20,10 +20,12 @@ const Trainers = () => {
           <Image
             src={selfie1}
             alt="kimani"
-            layout="fill"
-            objectFit="cover"
             className="flex justify-center rounded-full"
-          />
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover"
+            }} />
           <p className="absolute -bottom-32  w-48 h-48  text-white bg-gradient-to-b from-red-600 to-gray-100 rounded-full">
             <span className="flex justify-center font-bold   p-4 text-2xl items-center ">
               John Doe
@@ -35,10 +37,12 @@ const Trainers = () => {
           <Image
             src={selfie3}
             alt="kimani"
-            layout="fill"
-            objectFit="cover"
             className="flex justify-center rounded-full"
-          />
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover"
+            }} />
           <p className="absolute -bottom-32   w-48 h-48  text-white bg-gradient-to-b from-red-600 to-gray-100 rounded-full">
             <span className="flex justify-center font-bold  p-4 text-2xl items-center ">
               John Doe
@@ -50,10 +54,12 @@ const Trainers = () => {
           <Image
             src={selfie4}
             alt="kimani"
-            layout="fill"
-            objectFit="cover"
             className="flex justify-center rounded-full"
-          />
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover"
+            }} />
           <p className="absolute -bottom-32  w-48 h-48  text-white bg-gradient-to-b from-red-600 to-gray-100 rounded-full">
             <span className="flex justify-center font-bold  p-4 text-2xl items-center ">
               John Doe

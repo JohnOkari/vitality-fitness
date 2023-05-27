@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import aboutimage from "../public/about.jpg";
 import { CgGym } from "react-icons/cg";
 import { motion } from "framer-motion";
@@ -20,7 +20,10 @@ const About = () => {
               src={aboutimage}
               alt="aboutimage"
               className=" w-96 mx-2 px-2 md:mx-0 my-3 md:rounded-lg md:p-0 md:my-0 rounded-2xl"
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           {/* Left side  */}
           <div className="ml-10 ">
