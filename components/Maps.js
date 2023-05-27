@@ -13,7 +13,7 @@ const Maps = () => {
         </h1>
 
         <h1 className="  text-white font-bold text-4xl">
-          Rupa mall,Eldoret, Kenya
+          Murife mall, Eldoret, Kenya
         </h1>
       </section>
       <Map
@@ -43,7 +43,7 @@ const Maps = () => {
           offsetTop={-10}
         >
           <p className="bg-red-600 font-bold px-2 py-1 text-white rounded-xl">
-            Trimax fitness
+            Vitality fitness
           </p>
           <HiLocationMarker className="text-5xl text-red-600" />
         </Marker>
