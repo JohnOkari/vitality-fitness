@@ -1,6 +1,6 @@
 import React from "react";
 import { CgGym } from "react-icons/cg";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import selfie1 from "../public/selfie1.png";
 import selfie3 from "../public/selfie3.png";
 import selfie4 from "../public/selfie4.png";

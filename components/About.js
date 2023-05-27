@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import aboutimage from "../public/about.jpg";
 import { CgGym } from "react-icons/cg";
 import { motion } from "framer-motion";
@@ -34,7 +34,7 @@ const About = () => {
             </h2>
 
             <p className="text-lg text-gray-500 w-80 my-3 ">
-              Trimax fitness is a gym that is located at Juja. We have the best
+              Vitality fitness is a gym that is located at Juja. We have the best
               trainers and the best equipment. We are the best gym in town if
               you want to look good and feel good.
             </p>
