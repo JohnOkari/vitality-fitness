@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Vitality fitness
+
+- World Class Trainers
+
+- High Quality Equipment
+
+- Best Gym in Town
+
+Vitality fitness is a gym that is located at Juja. We have the best trainers and the best equipment. We are the best gym in town if you want to look good and feel good.
+
+Don't be left behind, join us today and get the best out of your
+
 
 ## Getting Started
 
