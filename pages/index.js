@@ -28,10 +28,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Trimax fitness</title>
+        <title>Vitality fitness</title>
         <meta
           name="description"
-          content="This is a webiste for Zero22 Gym in Thika"
+          content="This is a webiste for Zerovitality Gym in Nairobi"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo1.png" />
