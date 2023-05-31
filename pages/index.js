@@ -31,7 +31,7 @@ export default function Home() {
         <title>Vitality-fitness</title>
         <meta
           name="description"
-          content="This is a webiste for Zerovitality Gym in Nairobi"
+          content="This is a webiste for Vitality fitness Gym in Nairobi"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo1.png" />
