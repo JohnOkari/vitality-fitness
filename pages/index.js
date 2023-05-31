@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Vitality fitness</title>
+        <title>Vitality-fitness</title>
         <meta
           name="description"
           content="This is a webiste for Zerovitality Gym in Nairobi"
